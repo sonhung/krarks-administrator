@@ -1,0 +1,9 @@
+{
+  "extends": ["standard", "standard-react", "prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "react/prop-types": "warn",
+    "camelcase": "off"
+  }
+}
