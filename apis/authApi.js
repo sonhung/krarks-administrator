@@ -1,6 +1,10 @@
 const authApi = env => {
   const login = async (req, res) => {
-    res.send({ status: 200 })
+    const { body: { username = '', password } = {} } = req
+    if (username === password) {
+      res.send({ status: 200, token: 'ferfgerwetqwtqergtergergergegergerg' })
+    }
+    res.send({ status: 401 })
   }
 
   return {
