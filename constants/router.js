@@ -1,3 +1,3 @@
 module.exports = {
-  loginUrl: '/auth/login',
+  loginUrl: '/admin/login',
 }

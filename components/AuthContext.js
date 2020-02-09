@@ -14,9 +14,9 @@ const initialState = {
 const AuthContext = React.createContext(initialState)
 
 function AuthProvider({ children }) {
-  const login = async (username, password, remember, cbFailed) => {
-    const { status, token } = await makePostRequest(loginUrl, {
-      username,
+  const login = async (email, password, remember, cbFailed) => {
+    const { status, data: { token } = {} } = await makePostRequest(loginUrl, {
+      email,
       password,
     })
 

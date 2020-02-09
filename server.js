@@ -19,7 +19,7 @@ app
     server.use(express.json())
     server.use(compression())
 
-    server.post('/auth/login', (req, res) => authApi.login(req, res))
+    server.post('/admin/login', (req, res) => authApi.login(req, res))
 
     server.get('/health', (req, res) => res.status(200).send('OK'))
     server.get('*', (req, res) => {

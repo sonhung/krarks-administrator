@@ -1,5 +1,3 @@
 module.exports = {
-  api: {
-    server: '',
-  },
+  baseUrl: 'http://krarks-staging.herokuapp.com/api/v1',
 }
