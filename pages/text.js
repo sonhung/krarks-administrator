@@ -2,17 +2,17 @@ import React from 'react'
 import css from 'styled-jsx/css'
 import Layout from '../components/Layout'
 
-const Index = () => {
+const Text = () => {
   return (
     <React.Fragment>
       <Layout>
-        <div>Thêm sản phẩm</div>
+        <div>Nội dung chữ</div>
       </Layout>
       <style jsx>{styles}</style>
     </React.Fragment>
   )
 }
 
-export default Index
+export default Text
 
 const styles = css``

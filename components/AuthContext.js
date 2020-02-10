@@ -25,6 +25,7 @@ function AuthProvider({ children }) {
       if (remember) {
         window.localStorage.setItem('token', token)
       }
+      window.localStorage.setItem('email', email)
       setState({ ...state, isLogin: true })
       Router.push('/')
       return
@@ -34,7 +35,9 @@ function AuthProvider({ children }) {
 
   const logout = () => {
     window.localStorage.removeItem('token')
+    window.localStorage.removeItem('email')
     setState({ ...state, isLogin: false })
+    Router.push('/login')
   }
 
   const [state, setState] = React.useState({
