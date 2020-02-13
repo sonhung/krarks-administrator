@@ -18,7 +18,7 @@ const Header = () => {
       </div>
       {name && (
         <div className="menu">
-          <div className="user-name">{name}</div>
+          <div className="user-name">Chào {name}</div>
           <div className="vertical-line">|</div>
           <div className="logout" onClick={logout}>
             Thoát ra

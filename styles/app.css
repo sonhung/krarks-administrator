@@ -1,6 +1,5 @@
-.orange-button {
+.krark-button {
   color: #fff;
-  background-color: #F89821;
   border: 1px solid transparent;
   margin-right: 8px;
   margin-bottom: 12px;
@@ -9,4 +8,21 @@
   font-size: 14px;
   border-radius: 2px;
   line-height: 1.499;
+}
+
+.orange-button {
+  background-color: #F89821;
+}
+
+.gray-button {
+  background-color: #333333;
+}
+
+.ant-modal-header {
+  background: #F0F0F0 !important;
+  border-radius: 2px 2px 0px 0px;
+}
+
+.ant-modal-body {
+  padding: 0 24px !important;
 }

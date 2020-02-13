@@ -63,7 +63,7 @@ const Login = () => {
           Ghi nhớ
         </Checkbox>
         <button
-          className="orange-button login-btn"
+          className="orange-button krark-button login-btn"
           onClick={e => submitLogin(e)}
         >
           ĐĂNG NHẬP

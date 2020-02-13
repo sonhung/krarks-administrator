@@ -24,3 +24,9 @@ export const LEFT_MENU = [
     route: '/text',
   },
 ]
+
+export const MODAL_TYPE = {
+  INFO: 'INFO',
+  DELETE: 'DELETE',
+  EDIT: 'EDIT',
+}
